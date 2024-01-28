@@ -1,0 +1,38 @@
+li[title*="red"] {
+    color: red;
+}
+
+ol li:nth-child(even) {
+    font-size: 24px;
+}
+
+body > div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+div::first-line {
+    font-style: italic;
+    color: black;
+}
+
+span + div {
+    color: white;
+}
+
+body button {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    border-radius: 0px;
+    width: 200px;
+    height: 150px;
+}
